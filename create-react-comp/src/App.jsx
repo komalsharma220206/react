@@ -1,12 +1,18 @@
-import { Subscribe } from "./kgbutton"
-import { Click } from "./kgbutton"
+import { Button } from "./kgbutton";
+import { Head } from "./hello";
+let fire=()=>{
+  return "hari bol";
+}
 function App(){
-  return <div>
-    <h1>
-      BLOG ABOUT KRISHNA CONSCIOUSNESS
-    </h1>
-    <Subscribe></Subscribe>
-    <Click></Click>
+  let name="SHREE SHREE"
+  return <div style={{'color':'plum'}}>
+    <Button>
+      </Button>
+    <span>
+      {name}</span><Head></Head>
+      <div>
+        {fire()}
+      </div>
   </div>
 }
 export default App;

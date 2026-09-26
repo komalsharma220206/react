@@ -1,10 +1,11 @@
-export function Click(){
+export function Button(){
   return <button>
-    Click me
+    click me
   </button>
 }
-export function Subscribe(){
-  return <button>
-    Subscribe
-  </button>
+export function Button1(){
+    return <button>
+      Change me
+    </button>
 }
+
